@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32206" started-at="2019-10-14T04:21:00Z" finished-at="2019-10-14T04:21:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32206" started-at="2019-10-14T04:21:00Z" finished-at="2019-10-14T04:21:32Z">
+      <class name="cms.mainClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cms.mainClass@2a2d45ba]" name="setUp" is-config="true" duration-ms="6996" started-at="2019-10-14T11:21:00Z" finished-at="2019-10-14T11:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Title()[pri:0, instance:cms.mainClass@2a2d45ba]" name="Title" duration-ms="913" started-at="2019-10-14T11:21:07Z" finished-at="2019-10-14T11:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:cms.mainClass@2a2d45ba]" name="setDown" is-config="true" duration-ms="495" started-at="2019-10-14T11:21:08Z" finished-at="2019-10-14T11:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cms.mainClass@2a2d45ba]" name="setUp" is-config="true" duration-ms="4706" started-at="2019-10-14T11:21:09Z" finished-at="2019-10-14T11:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:cms.mainClass@2a2d45ba]" name="Login" duration-ms="18532" started-at="2019-10-14T11:21:13Z" finished-at="2019-10-14T11:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:cms.mainClass@2a2d45ba]" name="setDown" is-config="true" duration-ms="546" started-at="2019-10-14T11:21:32Z" finished-at="2019-10-14T11:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- cms.mainClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

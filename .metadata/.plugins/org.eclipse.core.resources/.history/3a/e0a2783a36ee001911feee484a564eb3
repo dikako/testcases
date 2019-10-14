@@ -1,0 +1,13 @@
+package cms;
+
+import org.testng.annotations.Test;
+
+@Test
+public class mainClass extends baseClass {
+	@Test(priority = 0)
+	public void Title() throws InterruptedException {
+		cekTitle page = new cekTitle(driver);
+		driver.get("https://rc-cms.mncplus.com/");
+		page.title();
+	}
+}
