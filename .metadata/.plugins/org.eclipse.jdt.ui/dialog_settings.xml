@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\Data\Library Automation\selenium-2.53.0\selenium-2.53.0\libs"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\Library\selenium-2.53.0"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -30,5 +30,8 @@
 	<section name="completion_proposal_size">
 	</section>
 	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
 	</section>
 </section>

@@ -23,5 +23,7 @@ public class menuContent {
 		assert driver.findElement(By.xpath("//span[text()='CLIP']")).getText().contains("CLIP");
 		assert driver.findElement(By.xpath("//span[text()='PHOTO']")).getText().contains("PHOTO");
 		assert driver.findElement(By.xpath("//span[text()='SPECIAL']")).getText().contains("SPECIAL");
+		
+		
 	}
 }

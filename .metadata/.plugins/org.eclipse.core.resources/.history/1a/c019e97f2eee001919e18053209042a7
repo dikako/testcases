@@ -1,8 +1,0 @@
-package cms;
-
-public class cekTitle {
-	private WebDriver driver;
-	public cekTitle(WebDriver driver) {
-		this.driver = driver;
-	}
-}

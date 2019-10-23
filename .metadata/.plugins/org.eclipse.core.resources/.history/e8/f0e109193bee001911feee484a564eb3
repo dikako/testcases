@@ -1,8 +1,0 @@
-package cms;
-
-public class menuContent {
-	WebDriver driver;
-	public menuContent(WebDriver driver) {
-		this.driver = driver;
-	}
-}

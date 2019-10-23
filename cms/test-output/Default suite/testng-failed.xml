@@ -6,7 +6,7 @@
       <class name="cms.mainClass">
         <methods>
           <include name="setDown"/>
-          <include name="Login"/>
+          <include name="testvid"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- cms.mainClass -->
