@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34193" started-at="2019-10-24T04:22:04Z" finished-at="2019-10-24T04:22:39Z">
+  <suite name="Default suite" duration-ms="54834" started-at="2019-10-27T03:51:55Z" finished-at="2019-10-27T03:52:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34193" started-at="2019-10-24T04:22:04Z" finished-at="2019-10-24T04:22:39Z">
+    <test name="Default test" duration-ms="54834" started-at="2019-10-27T03:51:55Z" finished-at="2019-10-27T03:52:50Z">
       <class name="rctiplus.mainClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:rctiplus.mainClass@724af044]" name="setUp" is-config="true" duration-ms="5032" started-at="2019-10-24T11:22:04Z" finished-at="2019-10-24T11:22:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:rctiplus.mainClass@724af044]" name="setUp" is-config="true" duration-ms="5198" started-at="2019-10-27T10:51:55Z" finished-at="2019-10-27T10:52:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TestAds()[pri:6, instance:rctiplus.mainClass@724af044]" name="TestAds" duration-ms="28434" started-at="2019-10-24T11:22:09Z" finished-at="2019-10-24T11:22:38Z">
+        <test-method status="PASS" signature="cekTitle()[pri:0, instance:rctiplus.mainClass@724af044]" name="cekTitle" duration-ms="48874" started-at="2019-10-27T10:52:01Z" finished-at="2019-10-27T10:52:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestAds -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:rctiplus.mainClass@724af044]" name="setDown" is-config="true" duration-ms="714" started-at="2019-10-24T11:22:38Z" finished-at="2019-10-24T11:22:39Z">
+        </test-method> <!-- cekTitle -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:rctiplus.mainClass@724af044]" name="setDown" is-config="true" duration-ms="751" started-at="2019-10-27T10:52:49Z" finished-at="2019-10-27T10:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->

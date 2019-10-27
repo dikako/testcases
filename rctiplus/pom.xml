@@ -5,13 +5,9 @@
   <groupId>rctiplus</groupId>
   <artifactId>rctiplus</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-
-  <name>rctiplus</name>
-  <url>http://maven.apache.org</url>
-
+  
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <suiteXmlFile>testng.xml</suiteXmlFile>
   </properties>
 
   <dependencies>
@@ -28,8 +24,33 @@
     	<artifactId>selenium-java</artifactId>
     	<version>2.53.0</version>
     </dependency>
-    
-    
-    
   </dependencies>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-compiler-plugin</artifactId>
+  			<version>3.6.2</version>
+  			
+  			<configuration>
+  				<compilerVersion>1.8</compilerVersion>
+  				<source>1.6</source>
+  				<target>1.6</target>
+  			</configuration>
+  		</plugin>
+  		
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-surefire-plugin</artifactId>
+  			<version>2.17</version>
+  			
+  			<configuration>
+  				<suiteXmlFiles>
+  					<suiteXmlFiles>${suiteXmlFile}</suiteXmlFiles>
+  				</suiteXmlFiles>
+  			</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
 </project>
