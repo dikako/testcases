@@ -11,7 +11,7 @@ public class ads {
 	}
 	
 	public void testAds() {
-		Boolean ads = driver.findElement(By.cssSelector("img[class='img-fluid']")).isDisplayed();
+		Boolean ads = driver.findElement(By.cssSelector("img[id='vid-player_vast_static']")).isDisplayed();
 		System.out.println("Apakah iklan Tampil ? " + (ads ? "" : "NOT ") + " Tampil");
 		Assert.assertTrue(ads);
 	}

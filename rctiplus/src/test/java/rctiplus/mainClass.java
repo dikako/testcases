@@ -1,5 +1,8 @@
 package rctiplus;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
+
 import org.testng.annotations.Test;
 
 import rctiplus.baseClass;
@@ -55,6 +58,26 @@ public class mainClass extends baseClass {
 		driver.get("https://rctiplus.com/tv/rcti");
 		Thread.sleep(5000);
 		page.testAds();
-		
+	}
+	
+	@Test(priority = 7)
+	public void TestLink() throws InterruptedException, MalformedURLException, IOException {
+		brokenlink page = new brokenlink(driver);
+		driver.get("https://rctiplus.com/");
+		page.testBrokenlink();
+	}
+	
+	@Test(priority = 8)
+	public void TestLinkExclusive() throws InterruptedException, MalformedURLException, IOException {
+		brokenlink page = new brokenlink(driver);
+		driver.get("https://rctiplus.com/exclusive");
+		page.testBrokenlink();
+	}
+	
+	@Test(priority = 9)
+	public void TestLinkDaily() throws InterruptedException, MalformedURLException, IOException {
+		brokenlink page = new brokenlink(driver);
+		driver.get("https://rctiplus.com/daily");
+		page.testBrokenlink();
 	}
 }
