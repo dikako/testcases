@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="136368" started-at="2019-10-29T04:16:44Z" finished-at="2019-10-29T04:19:00Z">
+  <suite name="Default suite" duration-ms="38821" started-at="2019-10-30T03:14:53Z" finished-at="2019-10-30T03:15:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="136368" started-at="2019-10-29T04:16:44Z" finished-at="2019-10-29T04:19:00Z">
+    <test name="Default test" duration-ms="38821" started-at="2019-10-30T03:14:53Z" finished-at="2019-10-30T03:15:32Z">
       <class name="rctiplus.mainClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:rctiplus.mainClass@724af044]" name="setUp" is-config="true" duration-ms="4707" started-at="2019-10-29T11:16:44Z" finished-at="2019-10-29T11:16:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:rctiplus.mainClass@724af044]" name="setUp" is-config="true" duration-ms="6358" started-at="2019-10-30T10:14:54Z" finished-at="2019-10-30T10:15:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TestLink()[pri:7, instance:rctiplus.mainClass@724af044]" name="TestLink" duration-ms="108549" started-at="2019-10-29T11:16:49Z" finished-at="2019-10-29T11:18:37Z">
+        <test-method status="PASS" signature="LiveChat()[pri:5, instance:rctiplus.mainClass@724af044]" name="LiveChat" duration-ms="31122" started-at="2019-10-30T10:15:00Z" finished-at="2019-10-30T10:15:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestLink -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:rctiplus.mainClass@724af044]" name="setDown" is-config="true" duration-ms="1069" started-at="2019-10-29T11:18:37Z" finished-at="2019-10-29T11:18:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:rctiplus.mainClass@724af044]" name="setUp" is-config="true" duration-ms="5660" started-at="2019-10-29T11:18:38Z" finished-at="2019-10-29T11:18:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TestLinkExclusive()[pri:8, instance:rctiplus.mainClass@724af044]" name="TestLinkExclusive" duration-ms="15810" started-at="2019-10-29T11:18:44Z" finished-at="2019-10-29T11:19:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestLinkExclusive -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:rctiplus.mainClass@724af044]" name="setDown" is-config="true" duration-ms="562" started-at="2019-10-29T11:19:00Z" finished-at="2019-10-29T11:19:00Z">
+        </test-method> <!-- LiveChat -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:rctiplus.mainClass@724af044]" name="setDown" is-config="true" duration-ms="1325" started-at="2019-10-30T10:15:31Z" finished-at="2019-10-30T10:15:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
