@@ -13,8 +13,8 @@ public class mylist {
 	}
 	
 	public void Verifmylist() {
-		driver.get("https://rctiplus.com");
-		WebElement content = driver.findElement(By.cssSelector("div[class='box-content']"));
-		content.get(new Random().nextInt(content.size())).click();
+//		driver.get("https://rctiplus.com");
+//		WebElement content = driver.findElement(By.cssSelector("div[class='box-content']"));
+//		content.get(new Random().nextInt(content.size())).click();
 	}
 }
