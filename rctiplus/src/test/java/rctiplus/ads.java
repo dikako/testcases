@@ -11,8 +11,14 @@ public class ads {
 	}
 	
 	public void testAds() {
-		Boolean ads = driver.findElement(By.cssSelector("img[id='vid-player_vast_static']")).isDisplayed();
+		driver.get("https://rc-ssr-new.rctiplus.com/");
+		Boolean ads = driver.findElement(By.className("i-amphtml-fill-content i-amphtml-replaced-content")).isDisplayed();
 		System.out.println("Apakah iklan Tampil? " + (ads ? "" : "NOT ") + " Tampil");
 		Assert.assertTrue(ads);
+//		Boolean ads = driver.findElement(By.cssSelector("img[id='vid-player_vast_static']")).isDisplayed();
+//		System.out.println("Apakah iklan Tampil? " + (ads ? "" : "NOT ") + " Tampil");
+//		Assert.assertTrue(ads);
+		
+		
 	}
 }

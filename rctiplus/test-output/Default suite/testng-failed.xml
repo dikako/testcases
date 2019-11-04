@@ -5,8 +5,8 @@
     <classes>
       <class name="rctiplus.mainClass">
         <methods>
+          <include name="TestAds"/>
           <include name="setUp"/>
-          <include name="LiveChat"/>
           <include name="setDown"/>
         </methods>
       </class> <!-- rctiplus.mainClass -->

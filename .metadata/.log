@@ -5853,3 +5853,1052 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 16:55:45.469
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:14:31.771
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:14:31.795
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:19:07.516
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:19:07.516
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:27:38.208
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:27:38.212
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:30:01.561
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:30:01.561
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:30:02.613
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:30:02.617
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:30:12.259
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:30:12.259
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:34:22.939
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:34:22.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:34:42.332
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:34:42.336
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:36:14.222
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-31 17:36:14.226
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-10-31 17:40:32.554
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainClass.java [in rctiplus [in src/test/java [in rctiplus]]]
+  package rctiplus
+  import java.io.IOException
+  import java.net.MalformedURLException
+  import org.testng.annotations.Test
+  import rctiplus.baseClass
+  import rctiplus.live
+  class mainClass
+    void MyList()
+
+!ENTRY org.testng.eclipse 1 0 2019-10-31 17:40:34.450
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53568 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse-1126605953\testng-customsuite.xml
+java -ea -classpath C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes:C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar org.testng.remote.RemoteTestNG -serport 53568 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse-1126605953\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-10-31 17:41:38.230
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainClass.java [in rctiplus [in src/test/java [in rctiplus]]]
+  package rctiplus
+  import java.io.IOException
+  import java.net.MalformedURLException
+  import org.testng.annotations.Test
+  import rctiplus.baseClass
+  import rctiplus.live
+  class mainClass
+    void MyList()
+
+!ENTRY org.testng.eclipse 1 0 2019-10-31 17:41:38.598
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53705 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse-1428877382\testng-customsuite.xml
+java -ea -classpath C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes:C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar org.testng.remote.RemoteTestNG -serport 53705 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse-1428877382\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-10-31 17:43:03.243
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainClass.java [in rctiplus [in src/test/java [in rctiplus]]]
+  package rctiplus
+  import java.io.IOException
+  import java.net.MalformedURLException
+  import org.testng.annotations.Test
+  import rctiplus.baseClass
+  import rctiplus.live
+  class mainClass
+    void MyList()
+
+!ENTRY org.testng.eclipse 1 0 2019-10-31 17:43:03.499
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53869 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse--803127608\testng-customsuite.xml
+java -ea -classpath C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes:C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar org.testng.remote.RemoteTestNG -serport 53869 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse--803127608\testng-customsuite.xml
+!SESSION 2019-11-01 14:41:13.887 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-11-01 14:41:27.361
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-11-01 14:42:01.844
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\fransiskus.setiawan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:42:15.420
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:42:15.426
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:46:52.955
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:46:52.981
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2019-11-01 14:52:50.429
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-01 14:52:50.429
+!MESSAGE A conflict occurred for CTRL+J:
+Binding(CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findIncremental,Incremental Find,
+		Incremental find,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12734eb5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+J,
+	ParameterizedCommand(Command(org.moreunit.core.commands.jumpCommand,Jump to Test/Source,
+		Jump to the test or source associated to the current file.,
+		Category(org.moreunit.core.commands.category,MoreUnit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e13b83c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+J,
+	ParameterizedCommand(Command(org.moreunit.core.commands.jumpCommand,Jump to Test/Source,
+		Jump to the test or source associated to the current file.,
+		Category(org.moreunit.core.commands.category,MoreUnit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e13b83c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-01 14:55:55.119
+!MESSAGE Connection to https://beust.com/eclipse/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 30 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-11-01 14:55:56.626
+!MESSAGE Unable to read repository at https://beust.com/eclipse/content.xml.
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:246)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 28 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-01 14:56:04.757
+!MESSAGE Connection to https://beust.com/eclipse/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 30 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:56:15.145
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:56:15.153
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:56:49.363
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:56:49.367
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:57:43.128
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:57:43.136
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:58:40.917
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:58:40.921
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:58:47.145
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:58:47.149
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:59:19.710
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 14:59:19.716
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-01 15:00:01.352
+!MESSAGE Connection to https://beust.com/eclipse/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 30 more
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2019-11-01 15:00:47.247
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2019-11-01 15:00:47.247
+!MESSAGE session context was:(profile=C__Users_fransiskus.setiawan_eclipse_java-2019-09_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.core,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.doc,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.mylyn.ui,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.ui,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.archive,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.ssh.apache,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit.mylyn,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-11-01 15:00:47.247
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.ssh.apache,5.5.1.201910021850-r
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:05:09.456
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:05:09.460
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:05:21.124
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:05:21.128
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:09:09.094
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:09:09.102
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:11:16.344
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:11:16.344
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:16:01.190
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:16:01.194
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:17:34.237
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:17:34.245
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:17:50.717
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:17:50.721
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:19:56.239
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:19:56.239
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:23:28.552
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:23:28.556
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:24:49.769
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:24:49.773
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:26:01.875
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:26:01.879
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:27:44.473
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:27:44.473
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:34:52.172
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:34:52.176
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:37:34.702
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:37:34.702
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:37:44.128
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-01 15:37:44.132
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-02 00:42:17.555
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-02 00:42:17.735
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2019-11-03 14:31:48.969 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-11-03 14:32:24.120
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\fransiskus.setiawan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-03 15:05:19.066
+!MESSAGE Connection to https://beust.com/eclipse/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 30 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-11-03 15:05:21.225
+!MESSAGE Unable to read repository at https://beust.com/eclipse/content.xml.
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:246)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 28 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-03 15:05:34.473
+!MESSAGE Connection to https://beust.com/eclipse/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 30 more
+!SESSION 2019-11-04 14:23:46.647 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-11-04 14:24:47.406
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\fransiskus.setiawan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:28:20.553
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:28:20.575
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:28:23.533
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:28:23.537
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:28:53.069
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:28:53.074
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:29:24.438
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:29:24.440
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:37:40.088
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:37:40.092
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:37:53.286
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 14:37:53.288
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-04 14:38:25.166
+!MESSAGE Connection to https://beust.com/eclipse/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 30 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-11-04 14:38:26.704
+!MESSAGE Unable to read repository at https://beust.com/eclipse/content.xml.
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:246)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 28 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-04 14:38:34.912
+!MESSAGE Connection to https://beust.com/eclipse/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:396)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:355)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 24 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 30 more
+
+!ENTRY org.testng.eclipse 1 0 2019-11-04 14:42:33.288
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainClass.java [in rctiplus [in src/test/java [in rctiplus]]]
+  package rctiplus
+  import java.io.IOException
+  import java.net.MalformedURLException
+  import org.testng.annotations.Test
+  import rctiplus.baseClass
+  import rctiplus.live
+  class mainClass
+    void TestAds()
+
+!ENTRY org.testng.eclipse 1 0 2019-11-04 14:42:35.004
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58745 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse-331106292\testng-customsuite.xml
+java -ea -classpath C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes:C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar org.testng.remote.RemoteTestNG -serport 58745 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse-331106292\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:01:56.579
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:01:56.596
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-11-04 17:02:07.483
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainClass.java [in rctiplus [in src/test/java [in rctiplus]]]
+  package rctiplus
+  import java.io.IOException
+  import java.net.MalformedURLException
+  import org.testng.annotations.Test
+  import rctiplus.baseClass
+  import rctiplus.live
+  class mainClass
+    void TestAds()
+
+!ENTRY org.testng.eclipse 1 0 2019-11-04 17:02:08.494
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60686 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse--326863662\testng-customsuite.xml
+java -ea -classpath C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes:C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar org.testng.remote.RemoteTestNG -serport 60686 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse--326863662\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:04:12.000
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:04:12.002
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-11-04 17:04:18.032
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainClass.java [in rctiplus [in src/test/java [in rctiplus]]]
+  package rctiplus
+  import java.io.IOException
+  import java.net.MalformedURLException
+  import org.testng.annotations.Test
+  import rctiplus.baseClass
+  import rctiplus.live
+  class mainClass
+    void TestAds()
+
+!ENTRY org.testng.eclipse 1 0 2019-11-04 17:04:18.211
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60911 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse--715259193\testng-customsuite.xml
+java -ea -classpath C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes:C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar org.testng.remote.RemoteTestNG -serport 60911 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse--715259193\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:05:37.204
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:05:37.205
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-11-04 17:05:47.500
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainClass.java [in rctiplus [in src/test/java [in rctiplus]]]
+  package rctiplus
+  import java.io.IOException
+  import java.net.MalformedURLException
+  import org.testng.annotations.Test
+  import rctiplus.baseClass
+  import rctiplus.live
+  class mainClass
+    void TestAds()
+
+!ENTRY org.testng.eclipse 1 0 2019-11-04 17:05:47.699
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61028 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse-1433271134\testng-customsuite.xml
+java -ea -classpath C:\Users\fransiskus.setiawan\.p2\pool\plugins\org.testng.eclipse_6.9.13.201609291640\lib\testng-remote.jar:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\test-classes:C:\Users\fransiskus.setiawan\testcases\rctiplus\target\classes:C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar:C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar org.testng.remote.RemoteTestNG -serport 61028 -protocol json -d C:\Users\fransiskus.setiawan\testcases\rctiplus\test-output C:\Users\FRANSI~1.SET\AppData\Local\Temp\testng-eclipse-1433271134\testng-customsuite.xml
+
+!ENTRY org.eclipse.jface 2 0 2019-11-04 17:19:03.332
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-04 17:19:03.332
+!MESSAGE A conflict occurred for CTRL+J:
+Binding(CTRL+J,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findIncremental,Incremental Find,
+		Incremental find,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69262cc2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+J,
+	ParameterizedCommand(Command(org.moreunit.core.commands.jumpCommand,Jump to Test/Source,
+		Jump to the test or source associated to the current file.,
+		Category(org.moreunit.core.commands.category,MoreUnit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45136ca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+J,
+	ParameterizedCommand(Command(org.moreunit.core.commands.jumpCommand,Jump to Test/Source,
+		Jump to the test or source associated to the current file.,
+		Category(org.moreunit.core.commands.category,MoreUnit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45136ca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:25:24.966
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:25:24.977
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:25:25.588
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:25:25.590
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:25:28.041
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:25:28.049
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-04 17:28:46.564
+!MESSAGE Could not download sources for javax.xml:jaxrpc-api:1.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.xml:jaxrpc-api:jar:sources:1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing javax.xml:jaxrpc-api:jar:sources:1.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-11-04 17:28:46.575
+!MESSAGE Could not resolve artifact javax.xml:jaxrpc-api:jar:sources:1.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-11-04 17:28:46.575
+!MESSAGE Missing javax.xml:jaxrpc-api:jar:sources:1.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:29:10.484
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-11-04 17:29:10.486
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-11-04 17:29:12.186
+!MESSAGE Could not download javadoc for javax.xml:jaxrpc-api:1.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.xml:jaxrpc-api:jar:javadoc:1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing javax.xml:jaxrpc-api:jar:javadoc:1.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-11-04 17:29:12.186
+!MESSAGE Could not resolve artifact javax.xml:jaxrpc-api:jar:javadoc:1.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-11-04 17:29:12.186
+!MESSAGE Missing javax.xml:jaxrpc-api:jar:javadoc:1.1
