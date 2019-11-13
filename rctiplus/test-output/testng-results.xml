@@ -2,53 +2,21 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76962" started-at="2019-11-04T10:05:48Z" finished-at="2019-11-04T10:07:05Z">
+  <suite name="Default suite" duration-ms="95728" started-at="2019-11-13T09:33:24Z" finished-at="2019-11-13T09:34:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76962" started-at="2019-11-04T10:05:48Z" finished-at="2019-11-04T10:07:05Z">
+    <test name="Default test" duration-ms="95728" started-at="2019-11-13T09:33:24Z" finished-at="2019-11-13T09:34:59Z">
       <class name="rctiplus.mainClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:rctiplus.mainClass@724af044]" name="setUp" is-config="true" duration-ms="5122" started-at="2019-11-04T17:05:48Z" finished-at="2019-11-04T17:05:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:rctiplus.mainClass@548e7350]" name="setUp" is-config="true" duration-ms="11201" started-at="2019-11-13T16:33:24Z" finished-at="2019-11-13T16:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="TestAds()[pri:6, instance:rctiplus.mainClass@724af044]" name="TestAds" duration-ms="70790" started-at="2019-11-04T17:05:53Z" finished-at="2019-11-04T17:07:04Z">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
-            <message>
-              <![CDATA[The given selector i-amphtml-fill-content i-amphtml-replaced-content is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Compound class names not permitted
-Command duration or timeout: 42.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bd0871f4-234c-45a1-9ef6-c6e1e387e750
-*** Element info: {Using=class name, value=i-amphtml-fill-content i-amphtml-replaced-content}]]>
-            </message>
+        <test-method status="FAIL" signature="CekShare_line()[pri:14, instance:rctiplus.mainClass@548e7350]" name="CekShare_line" duration-ms="83084" started-at="2019-11-13T16:33:35Z" finished-at="2019-11-13T16:34:58Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: The given selector i-amphtml-fill-content i-amphtml-replaced-content is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Compound class names not permitted
-Command duration or timeout: 42.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bd0871f4-234c-45a1-9ef6-c6e1e387e750
-*** Element info: {Using=class name, value=i-amphtml-fill-content i-amphtml-replaced-content}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at rctiplus.ads.testAds(ads.java:15)
-	at rctiplus.mainClass.TestAds(mainClass.java:58)
+              <![CDATA[java.lang.NullPointerException
+	at rctiplus.share_line.cekshare_line(share_line.java:50)
+	at rctiplus.mainClass.CekShare_line(mainClass.java:111)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -73,25 +41,13 @@ Session ID: bd0871f4-234c-45a1-9ef6-c6e1e387e750
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: org.openqa.selenium.InvalidSelectorException: The given selector i-amphtml-fill-content i-amphtml-replaced-content is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Compound class names not permitted
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'MNCTVN05589', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/FRANSI~1.SET/AppData/Local/Temp/anonymous8609744372276742089webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10744)
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/FRANSI~1.SET/AppData/Local/Temp/anonymous8609744372276742089webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10775)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/FRANSI~1.SET/AppData/Local/Temp/anonymous8609744372276742089webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/FRANSI~1.SET/AppData/Local/Temp/anonymous8609744372276742089webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/FRANSI~1.SET/AppData/Local/Temp/anonymous8609744372276742089webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/FRANSI~1.SET/AppData/Local/Temp/anonymous8609744372276742089webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestAds -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:rctiplus.mainClass@724af044]" name="setDown" is-config="true" duration-ms="1023" started-at="2019-11-04T17:07:04Z" finished-at="2019-11-04T17:07:05Z">
+        </test-method> <!-- CekShare_line -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:rctiplus.mainClass@548e7350]" name="setDown" is-config="true" duration-ms="1417" started-at="2019-11-13T16:34:58Z" finished-at="2019-11-13T16:34:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->

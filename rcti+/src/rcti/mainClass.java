@@ -10,14 +10,14 @@ public class mainClass extends baseClass {
 //		driver.get("https://www.rctiplus.com/");
 //		page.cektitle();
 //	}
-//	
-//	@Test(priority = 1)
-//	public void cekHomepage() throws InterruptedException {
-//		home page = new home(driver);
-//		driver.get("https://www.rctiplus.com/");
-//		page.cekhomepage();
-//	}
-//	
+	
+	@Test(priority = 1)
+	public void cekHomepage() throws InterruptedException {
+		home page = new home(driver);
+		driver.get("https://www.rctiplus.com/");
+		page.cekhomepage();
+	}
+	
 //	@Test(priority = 2)
 //	public void cekLiveRcti() throws InterruptedException {
 //		live page = new live(driver);
@@ -38,14 +38,14 @@ public class mainClass extends baseClass {
 //		driver.get("https://rctiplus.com/tv/gtv");
 //		page.ceklive();
 //	}
-	
-	@Test(priority = 5)
-	public void cekLiveInews() throws InterruptedException {
-		live page = new live(driver);
-		driver.get("https://rctiplus.com/tv/inews");
-		page.ceklive();
-	}
-	
+//	
+//	@Test(priority = 5)
+//	public void cekLiveInews() throws InterruptedException {
+//		live page = new live(driver);
+//		driver.get("https://rctiplus.com/tv/inews");
+//		page.ceklive();
+//	}
+//	
 //	@Test(priority = 6)
 //	public void LiveChat() throws InterruptedException {
 //		livechat page = new livechat(driver);

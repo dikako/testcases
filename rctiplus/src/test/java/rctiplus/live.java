@@ -45,7 +45,7 @@ public class live {
 		jse.executeScript("jwplayer().pause()");
 		Thread.sleep(2000);
 		//Fullscreen
-		jse.executeScript("jwplayer().setFullscreen()");
+		jse.executeScript("jwplayer().on('fullscreen')");
 		Thread.sleep(5000);
 		
 		String ceklv;
