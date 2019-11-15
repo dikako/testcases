@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32166" started-at="2019-11-14T05:36:01Z" finished-at="2019-11-14T05:36:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32166" started-at="2019-11-14T05:36:01Z" finished-at="2019-11-14T05:36:33Z">
+      <class name="mobile.ssr.mainClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:mobile.ssr.mainClass@548e7350]" name="setUp" is-config="true" duration-ms="10814" started-at="2019-11-14T12:36:01Z" finished-at="2019-11-14T12:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Cekurl_Redirect()[pri:0, instance:mobile.ssr.mainClass@548e7350]" name="Cekurl_Redirect" duration-ms="19806" started-at="2019-11-14T12:36:12Z" finished-at="2019-11-14T12:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cekurl_Redirect -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:mobile.ssr.mainClass@548e7350]" name="setDown" is-config="true" duration-ms="1534" started-at="2019-11-14T12:36:32Z" finished-at="2019-11-14T12:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- mobile.ssr.mainClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -14,7 +14,7 @@ public class exclusive {
 		this.driver = driver;
 	}
 	
-	public void cekexclusive() {
+	public void cekexclusive() throws InterruptedException {
 		//Klik Exclusive
 		driver.findElement(By.xpath("//a[text()='EXCLUSIVE']")).click();
 		String url_exclusive = driver.getCurrentUrl();

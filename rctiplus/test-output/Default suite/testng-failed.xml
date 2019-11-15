@@ -5,7 +5,9 @@
     <classes>
       <class name="rctiplus.mainClass">
         <methods>
-          <include name="CekShare_line"/>
+          <include name="cekTitle"/>
+          <include name="TestAds"/>
+          <include name="CekShare_fb"/>
           <include name="setUp"/>
           <include name="setDown"/>
         </methods>

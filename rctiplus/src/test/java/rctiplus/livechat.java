@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import rctiplus.login;
 
 public class livechat {
 	WebDriver driver;
@@ -12,10 +13,8 @@ public class livechat {
 	}
 	
 	public void liveChat() {
-		driver.get("https://rctiplus.com/login");
-		driver.findElement(By.cssSelector("input[type=text][name='emailphone']")).sendKeys("dikakoko04@gmail.com", Keys.TAB);
-		driver.findElement(By.cssSelector("input[type=password][name='password']")).sendKeys("dikakoko");
-		driver.findElement(By.cssSelector("button[class='btn btn-sign']")).click();
+		login login = new login(driver);
+		login.ceklogin();
 		
 		driver.get("https://rctiplus.com/tv/rcti");
 		WebElement status = driver.findElement(By.xpath("//text()[.='Available']/ancestor::h5[1]"));

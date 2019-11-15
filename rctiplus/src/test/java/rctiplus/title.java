@@ -12,6 +12,6 @@ public class title {
 	public void cektitle() {
 		String title = driver.getTitle();
 		System.out.println("Page Title : " + title);
-		Assert.assertEquals(title, "Welcome to RCTI+");
+		Assert.assertEquals(title, "RCTI+ - Live Streaming Program 4 TV Terpopuler");
 	}
 }
