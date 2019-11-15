@@ -5671,3 +5671,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun.xml.b
 2019-11-15 14:34:55,562 [Worker-159: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-11-15 14:34:55,562 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\fransiskus.setiawan\testcases\mobile.ssr\src\main\resources
 2019-11-15 14:34:55,562 [Worker-159: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-11-15 14:34:55,566 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\fransiskus.setiawan\testcases\mobile.ssr\src\test\resources
