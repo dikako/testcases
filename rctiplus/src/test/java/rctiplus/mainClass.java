@@ -149,10 +149,16 @@ public class mainClass extends baseClass {
 //		page.cek_duplicated();
 //	}
 	
-	@Test(priority = 20)
-	public void Cekformvalidation_login() throws InterruptedException {
-		form_login_validation page = new form_login_validation(driver);
-		driver.get("https://rctiplus.com/login");
-		page.form_validation_login();
+//	@Test(priority = 20)
+//	public void Cekformvalidation_login() throws InterruptedException {
+//		form_login_validation page = new form_login_validation(driver);
+//		driver.get("https://rctiplus.com/login");
+//		page.form_validation_login();
+//	}
+	
+	@Test(priority = 21)
+	public void Cek_Lupa_Passwor() throws InterruptedException {
+		lupa_password page = new lupa_password(driver);
+		page.cek_lupa_password();
 	}
 }

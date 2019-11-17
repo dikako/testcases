@@ -31,22 +31,30 @@ public class form_login_validation {
 		assert alert_pass.getText().contains("Please enter your password");
 		
 		//form emailphone kosong
-		emailphone.clear();
-		emailphone.sendKeys("");
-		password.clear();
-		password.sendKeys(pass);
-		
+		WebElement emailphone_1 = driver.findElement(By.xpath("//input[@type='text'][@name='emailphone']"));
+		emailphone_1.clear();
+		emailphone_1.sendKeys("");
+		WebElement password_1 = driver.findElement(By.xpath("//input[@type='password'][@name='password']"));
+		password_1.clear();
+		password_1.sendKeys(pass);
+		WebElement button_1 = driver.findElement(By.xpath("//button[text()='Sign In']"));
+		button_1.click();
 		//alert form emailphone kosong
-		assert alert_mailphone.getText().contains("Please fill your phone number or email address here");
+		WebElement alert_mailphone1 = driver.findElement(By.xpath("//small[text()='Please fill your phone number or email address here']"));
+		assert alert_mailphone1.getText().contains("Please fill your phone number or email address here");
 		
 		//form password kosong
-		emailphone.clear();
-		emailphone.sendKeys(mail);
-		password.clear();
-		password.sendKeys("");
-		
+		WebElement emailphone_2 = driver.findElement(By.xpath("//input[@type='text'][@name='emailphone']"));
+		emailphone_2.clear();
+		emailphone_2.sendKeys(mail);
+		WebElement password_3 = driver.findElement(By.xpath("//input[@type='password'][@name='password']"));
+		password_3.clear();
+		password_3.sendKeys("");
+		WebElement button_3 = driver.findElement(By.xpath("//button[text()='Sign In']"));
+		button_3.click();
 		//alert password kosong
-		assert alert_pass.getText().contains("Please enter your password");
+		WebElement alert_pass1 = driver.findElement(By.xpath("//small[text()='Please enter your password']"));
+		assert alert_pass1.getText().contains("Please enter your password");
 		
 		
 	}

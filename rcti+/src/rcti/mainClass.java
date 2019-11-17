@@ -11,12 +11,12 @@ public class mainClass extends baseClass {
 //		page.cektitle();
 //	}
 	
-	@Test(priority = 1)
-	public void cekHomepage() throws InterruptedException {
-		home page = new home(driver);
-		driver.get("https://www.rctiplus.com/");
-		page.cekhomepage();
-	}
+//	@Test(priority = 1)
+//	public void cekHomepage() throws InterruptedException {
+//		home page = new home(driver);
+//		driver.get("https://www.rctiplus.com/");
+//		page.cekhomepage();
+//	}
 	
 //	@Test(priority = 2)
 //	public void cekLiveRcti() throws InterruptedException {
@@ -52,4 +52,11 @@ public class mainClass extends baseClass {
 //		Thread.sleep(2000);
 //		page.liveChat();
 //	}
+	
+	@Test(priority = 0)
+	public void cekteb() throws Exception {
+		tab page = new tab(driver);
+		driver.get("https://www.google.com/");
+		page.tabtest();
+	}
 }

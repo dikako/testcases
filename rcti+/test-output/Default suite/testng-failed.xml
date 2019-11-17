@@ -5,7 +5,7 @@
     <classes>
       <class name="rcti.mainClass">
         <methods>
-          <include name="cekLiveInews"/>
+          <include name="cekteb"/>
           <include name="setUp"/>
           <include name="setDown"/>
         </methods>
