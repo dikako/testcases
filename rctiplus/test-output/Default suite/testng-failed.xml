@@ -5,7 +5,7 @@
     <classes>
       <class name="rctiplus.mainClass">
         <methods>
-          <include name="Cek_Lupa_Passwor"/>
+          <include name="Cek_Explore"/>
           <include name="setUp"/>
           <include name="setDown"/>
         </methods>

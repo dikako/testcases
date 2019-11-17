@@ -156,9 +156,16 @@ public class mainClass extends baseClass {
 //		page.form_validation_login();
 //	}
 	
-	@Test(priority = 21)
-	public void Cek_Lupa_Passwor() throws InterruptedException {
-		lupa_password page = new lupa_password(driver);
-		page.cek_lupa_password();
+//	@Test(priority = 21)
+//	public void Cek_Lupa_Passwor() throws InterruptedException {
+//		lupa_password page = new lupa_password(driver);
+//		page.cek_lupa_password();
+//	}
+	
+	@Test(priority = 22)
+	public void Cek_Explore() throws InterruptedException {
+		explore page = new explore(driver);
+		driver.get("https://rctiplus.com/");
+		page.cek_explore();
 	}
 }

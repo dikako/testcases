@@ -3,6 +3,7 @@ package rctiplus;
 import java.util.List;
 
 import org.openqa.selenium.By;
+//import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -74,4 +75,13 @@ public class exclusive {
 		System.out.println("Jumlah Konten : " + imglist.size());
 		
 	}
+	
+//	public void clickvideo() throws InterruptedException {
+//		JavascriptExecutor jse = (JavascriptExecutor) driver;
+//		//WebElement clickvid = driver.findElement(By.cssSelector("*[class='title']"));
+//		//clickvid.click();
+//		jse.executeScript("jwplayer().play([])");
+//		Thread.sleep(30000);
+//		jse.executeScript("jwpalyer().jwremove()");
+//	}
 }
