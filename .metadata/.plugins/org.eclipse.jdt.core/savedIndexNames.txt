@@ -16,7 +16,6 @@ INDEX VERSION 1.131+C:\Users\fransiskus.setiawan\testcases\.metadata\.plugins\or
 3934922931.index
 1334449078.index
 3461649243.index
-2963772023.index
 2773683414.index
 1600098003.index
 280523071.index
@@ -26,9 +25,7 @@ INDEX VERSION 1.131+C:\Users\fransiskus.setiawan\testcases\.metadata\.plugins\or
 3429681154.index
 477994655.index
 769813211.index
-1466026132.index
 1220708859.index
-3975293861.index
 372046403.index
 956715986.index
 4078713305.index
@@ -62,7 +59,6 @@ INDEX VERSION 1.131+C:\Users\fransiskus.setiawan\testcases\.metadata\.plugins\or
 2013179298.index
 1196331940.index
 3445937654.index
-2472739679.index
 2772419465.index
 3151243649.index
 3426154172.index
