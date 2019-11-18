@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import rctiplus.login;
+import rctiplus.chat;
 
 public class livechat {
 	WebDriver driver;
@@ -13,14 +13,46 @@ public class livechat {
 	}
 	
 	public void liveChat() {
-		login login = new login(driver);
-		login.ceklogin();
+		//variabel user & pass
+		String user = "dikakoko04@gmail.com";
+		String pass = "dikakoko";
+		//Skenario Login Success
+		driver.get("https://rctiplus.com/login");
+		WebElement input_user = driver.findElement(By.cssSelector("input[type=text][name='emailphone']"));
+		input_user.clear();
+		input_user.sendKeys(user, Keys.TAB);
+		System.out.println("Input User : " + user);
+		WebElement input_pass = driver.findElement(By.cssSelector("input[type=password][name='password']"));
+		input_pass.clear();
+		input_pass.sendKeys(pass);
+		System.out.println("Input Password : " + pass);
+		WebElement klik_but = driver.findElement(By.cssSelector("button[class='btn btn-sign']"));
+		klik_but.click();
 		
+		//Live RCTI
 		driver.get("https://rctiplus.com/tv/rcti");
-		WebElement status = driver.findElement(By.xpath("//text()[.='Available']/ancestor::h5[1]"));
-		assert status.getText().contains("Available");
-		driver.findElement(By.cssSelector("div[placeholder='Type here to start chat ...']")).sendKeys("Mantab nih", Keys.ENTER);
-		WebElement chat = driver.findElement(By.xpath("/html[1]/body[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6782]/p[1]"));
-		assert chat.getText().contains("Mantab nih");
+		String url_rcti = driver.getCurrentUrl();
+		System.out.println("Live Chat On : " + url_rcti);
+		chat page = new chat(driver);
+		page.cek_chat();
+		
+//		//Live MNCTV
+//		driver.get("https://rctiplus.com/tv/mnctv");
+//		String url_mnctv = driver.getCurrentUrl();
+//		System.out.println("Live Chat On : " + url_mnctv);
+//		page.cek_chat();
+//		
+//		//Live MNCTV
+//		driver.get("https://rctiplus.com/tv/gtv");
+//		String url_gtv = driver.getCurrentUrl();
+//		System.out.println("Live Chat On : " + url_gtv);
+//		page.cek_chat();
+//				
+//		//Live MNCTV
+//		driver.get("https://rctiplus.com/tv/inews");
+//		String url_inews = driver.getCurrentUrl();
+//		System.out.println("Live Chat On : " + url_inews);
+//		page.cek_chat();
+		
 	}
 }

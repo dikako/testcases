@@ -4,20 +4,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import rctiplus.editprofileobject;
 
-import junit.framework.Assert;
-
-public class login {
+public class edit_profile {
 	WebDriver driver;
-	public login (WebDriver driver) {
+	public edit_profile (WebDriver driver) {
 		this.driver = driver;
 	}
 	
-	public void ceklogin() {
-		//Get Url
-		String url = driver.getCurrentUrl();
-		System.out.println("Login Url : " + url);
-		
+	/**
+	 * 
+	 */
+	public void cek_edit_profile() {
 		//variabel user & pass
 		String user = "dikakoko04@gmail.com";
 		String pass = "dikakoko";
@@ -40,15 +38,60 @@ public class login {
 		login_success.getText().contains(email_user);
 		System.out.println("Login Sukses Untuk email : " + email_user);
 		
-		//Logout
+		//Edit Profile
 		WebElement dot = driver.findElement(By.xpath("//img[@src='https://rc-static.rctiplus.id/assets/image/elements/dotbtutton.png']"));
 		dot.click();
-		WebElement logout = driver.findElement(By.xpath("//a[text()='Sign Out']"));
-		logout.click();
+		WebElement edit = driver.findElement(By.xpath("//a[text()='Edit Profile']"));
+		edit.click();
 		
-		String logout_url = driver.getCurrentUrl();
-		Assert.assertEquals(logout_url, logout_url);
-		System.out.println("Logout Url : " + logout_url);
+		//Edit Fullname
+		editprofileobject page = new editprofileobject(driver);
+		page.fulname();
+		
+		//Edit ttl
+		page.ttl();
+		
+		//Edit jk
+		page.jk();
+		
+		//Edit Lokasi
+		page.lokasi();
+		
+		//Edit Fullname & Ttl
+		page.fulname();
+		page.ttl();
+		
+		//Edit Ttl & Jk
+		page.ttl();
+		page.jk();
+		
+		//Edit jk & Lokasi
+		page.jk();
+		page.lokasi();
+		
+		//Edit Fullname & jk
+		page.fulname();
+		page.jk();
+		
+		//Edit fullname & lokasi
+		page.fulname();
+		page.lokasi();
+		
+		//Edit ttl & lokasi
+		page.ttl();
+		page.lokasi();
+		
+		//Edit fulname,ttl,jk
+		page.fulname();
+		page.ttl();
+		page.jk();
+		
+		//Edit semuanya
+		page.fulname();
+		page.ttl();
+		page.jk();
+		page.lokasi();
 		
 	}
+	
 }

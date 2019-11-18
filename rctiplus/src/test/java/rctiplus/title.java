@@ -11,6 +11,9 @@ public class title {
 	
 	public void cektitle() {
 		String title = driver.getTitle();
+		String url = driver.getCurrentUrl();
+		System.out.println("Page Url : " + url);
+		Assert.assertEquals(url, "https://rctiplus.com/");
 		System.out.println("Page Title : " + title);
 		Assert.assertEquals(title, "RCTI+ - Live Streaming Program 4 TV Terpopuler");
 	}
