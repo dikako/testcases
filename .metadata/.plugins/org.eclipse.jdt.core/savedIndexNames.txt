@@ -62,7 +62,6 @@ INDEX VERSION 1.131+C:\Users\fransiskus.setiawan\testcases\.metadata\.plugins\or
 2013179298.index
 1196331940.index
 3445937654.index
-2472739679.index
 2772419465.index
 3151243649.index
 3426154172.index
