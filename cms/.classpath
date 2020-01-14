@@ -24,6 +24,6 @@
 	<classpathentry kind="lib" path="D:/Library/selenium-2.53.0/libs/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="D:/Library/selenium-2.53.0/libs/netty-3.5.7.Final.jar"/>
 	<classpathentry kind="lib" path="D:/Library/selenium-2.53.0/libs/phantomjsdriver-1.2.1.jar"/>
-	<classpathentry kind="lib" path="D:/Library/selenium-2.53.0/libs/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="D:/Library/selenium-2.53.0/libs/testng-6.9.9.jar" sourcepath="C:/Users/fransiskus.setiawan/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -20,7 +20,7 @@ public class login_gagal {
 		String user = "dikakoko04@gmail.com";
 		String pass = "passwordsalah";
 		
-		//Skenario Login Success
+		//Skenario Login Gagal
 		WebElement input_user = driver.findElement(By.cssSelector("input[type=text][name='emailphone']"));
 		input_user.clear();
 		input_user.sendKeys(user, Keys.TAB);

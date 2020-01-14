@@ -5,9 +5,14 @@
     <classes>
       <class name="rctiplus.mainClass">
         <methods>
+          <include name="testLogin5"/>
+          <include name="testLogin4"/>
+          <include name="testLogin1"/>
+          <include name="testLogin6"/>
+          <include name="testLogin3"/>
           <include name="setUp"/>
-          <include name="LiveChat"/>
           <include name="setDown"/>
+          <include name="testLogin2"/>
         </methods>
       </class> <!-- rctiplus.mainClass -->
     </classes>

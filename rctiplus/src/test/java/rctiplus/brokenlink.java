@@ -16,7 +16,7 @@ public class brokenlink {
 	public brokenlink (WebDriver driver) {
 		this.driver = driver;
 	}
-	
+
 	public void testBrokenlink() throws MalformedURLException, IOException {
 		//list of the link and images : 500
 		List<WebElement> linkList = driver.findElements(By.tagName("a"));
@@ -41,9 +41,9 @@ public class brokenlink {
 		for (int j = 0; j < activeLink.size(); j++) {
 		HttpURLConnection connection = (HttpURLConnection) new URL (activeLink.get(j).getAttribute("href")).openConnection();
 		connection.connect();
-		String respons = connection.getResponseMessage(); //ok 200 not found 404 internal error 500 bad req 400
-		connection.disconnect();
-		System.out.println(activeLink.get(j).getAttribute("href") + " : " + respons);
+//		String respons = connection.getResponseMessage(); //ok 200 not found 404 internal error 500 bad req 400
+//		connection.disconnect();
+//		//System.out.println(activeLink.get(j).getAttribute("href") + " : " + respons);
 		
 		}
 	}

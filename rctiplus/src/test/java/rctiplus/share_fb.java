@@ -6,7 +6,7 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import rctiplus.login_fb;
 
 public class share_fb {
 	WebDriver driver;
@@ -15,14 +15,12 @@ public class share_fb {
 	}
 	
 	public void cekshare_fb() throws InterruptedException {
-		//share fb
 		driver.get("https://rctiplus.com/exclusive");
 		WebElement popup = driver.findElement(By.cssSelector("img[class='user-simple-share-icons share ']"));
 		popup.click();
-		
 		String window = driver.getWindowHandle();
 		System.out.println("Handle Windows : " + window);
-		WebElement newWindow = driver.findElement(By.cssSelector("img[src='https://rc-static.rctiplus.id/assets/image/elements/fb.png']"));
+		WebElement newWindow = driver.findElement(By.xpath("//div[@class='modal-overlay active']//li[1]//a[1]//img[1]"));
 		newWindow.click();
 		Set<String> winhandles = driver.getWindowHandles();
 		for (String handle: winhandles) {
@@ -31,40 +29,17 @@ public class share_fb {
 				Thread.sleep(10000);
 			}
 		}
-		
-		String getUrl = driver.getCurrentUrl();
-		System.out.println("Share Facebook Url : " + getUrl);
-		driver.findElement(By.xpath("//input[@type='text'][@name='email']")).clear();
-		driver.findElement(By.xpath("//input[@type='text'][@name='email']")).sendKeys("dikakoko04@gmail.com");
-		driver.findElement(By.xpath("//input[@type='password'][@name='pass']")).clear();
-		driver.findElement(By.xpath("//input[@type='password'][@name='pass']")).sendKeys("Dikakoko04***");
-		driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
-		
-		//Rundom Input
-//		String arr[] = UUID.randomUUID().toString().split("-");
-//		System.out.println("Content Id : " + arr[0]);
+		login_fb page_fb = new login_fb(driver);
+		page_fb.Login_Fb();
 		WebElement id = driver.findElement(By.xpath("//textarea[@name='xhpc_message_text']"));
 		id.sendKeys("8e72c5ad");
 		driver.findElement(By.xpath("//span[text()='Kirim ke Facebook']")).click();
-		
 		driver.switchTo().window(window);
 		System.out.println("Handle Windows : " + driver.getCurrentUrl());
-		
-		
-		//Validate share work
-//		driver.get("https://www.facebook.com/");
-//		driver.findElement(By.xpath("//input[@type='email'][@name='email']")).clear();
-//		driver.findElement(By.xpath("//input[@type='email'][@name='email']")).sendKeys("dikakoko04@gmail.com");
-//		driver.findElement(By.xpath("//input[@type='password'][@name='pass']")).sendKeys("Dikakoko04***");
-//		driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
-		//driver.findElement(By.xpath("//span[text()='Fransiskus']")).click();
 		driver.get("https://www.facebook.com/profile.php?id=100010085881759");
 		String valid = "8e72c5ad";
 		WebElement cekid = driver.findElement(By.xpath("//p[text()='8e72c5ad']"));
 		assert cekid.getText().contains(valid);
 		System.out.println("Kode Content : " + valid);
-//		driver.findElement(By.xpath("//a[@id='u_0_3f']")).click();
-//		driver.findElement(By.xpath("//span[text()='Hapus']")).click();
-//		driver.findElement(By.xpath("//button[text()='Hapus']")).click();
 	}
 }

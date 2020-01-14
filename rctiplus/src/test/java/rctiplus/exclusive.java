@@ -14,7 +14,7 @@ public class exclusive {
 	public exclusive (WebDriver driver) {
 		this.driver = driver;
 	}
-	
+
 	public void cekexclusive() throws InterruptedException {
 		//Klik Exclusive
 		driver.findElement(By.xpath("//a[text()='EXCLUSIVE']")).click();
@@ -72,7 +72,7 @@ public class exclusive {
 	//Cek jumlah konten
 	public void cekImgCount() {
 		List<WebElement> imglist = driver.findElements(By.cssSelector("img[class='user-simple-line-icons']"));
-		System.out.println("Jumlah Konten : " + imglist.size());
+		System.out.println("Jumlah Konten yang tampil : " + imglist.size());
 		
 	}
 	

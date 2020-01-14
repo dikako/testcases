@@ -12,7 +12,7 @@ public class share_twitter {
 	public share_twitter (WebDriver driver) {
 		this.driver = driver;
 	}
-	
+
 	public void cekshare_twitter() throws InterruptedException {
 		//share twitter
 		driver.get("https://rctiplus.com/exclusive");
@@ -21,7 +21,7 @@ public class share_twitter {
 		
 		String window = driver.getWindowHandle();
 		System.out.println("Handle Windows : " + window);
-		WebElement newWindow = driver.findElement(By.cssSelector("img[src='https://rc-static.rctiplus.id/assets/image/elements/twitter.png']"));
+		WebElement newWindow = driver.findElement(By.xpath("//div[@class='modal-overlay active']//li[2]//a[1]//img[1]"));
 		newWindow.click();
 		Set<String> winhandles = driver.getWindowHandles();
 		for (String handle: winhandles) {
@@ -30,7 +30,6 @@ public class share_twitter {
 				Thread.sleep(10000);
 			}
 		}
-		
 		String getUrl = driver.getCurrentUrl();
 		System.out.println("Share Twitter Url : " + getUrl);
 		WebElement id = driver.findElement(By.cssSelector("textarea[name='status']"));
@@ -43,10 +42,8 @@ public class share_twitter {
 		password.sendKeys("04Nov1998**", Keys.ENTER);
 		WebElement twet = driver.findElement(By.xpath("//input[@type='submit'][@value='Tweet']"));
 		twet.click();
-		
 		driver.switchTo().window(window);
 		System.out.println("Handle Windows : " + driver.getCurrentUrl());
-		
 		driver.get("https://twitter.com/KoDikako");
 		String valid = "8e72c5ad";
 		WebElement cekid = driver.findElement(By.xpath("//span[text()='8e72c5ad']"));

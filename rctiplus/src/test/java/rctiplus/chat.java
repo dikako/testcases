@@ -10,13 +10,14 @@ public class chat {
 	public chat (WebDriver driver) {
 		this.driver = driver;
 	}
-	
+
 	public void cek_chat() {
 		String input_chat = "Mantab nih";
-		WebElement status = driver.findElement(By.xpath("//text()[.='Available']/ancestor::h5[1]"));
+		WebElement status = driver.findElement(By.xpath("//h5[@id='status-chat']"));
 		assert status.getText().contains("Available");
-		driver.findElement(By.cssSelector("div[placeholder='Type here to start chat ...']")).sendKeys("Mantab nih", Keys.ENTER);
-		WebElement chat = driver.findElement(By.xpath("/html[1]/body[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6782]/p[1]"));
+		WebElement test_chat = driver.findElement(By.cssSelector("div[placeholder='Type here to start chat ...']"));
+		test_chat.sendKeys("Mantab nih", Keys.ENTER);
+		WebElement chat = driver.findElement(By.xpath("//p[contains(text(),'Mantab nih')]"));
 		assert chat.getText().contains(input_chat);
 		System.out.println("Isi Chat : " + input_chat);
 	}

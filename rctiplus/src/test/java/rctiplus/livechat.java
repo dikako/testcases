@@ -1,10 +1,10 @@
 package rctiplus;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import rctiplus.chat;
+import rctiplus.loginobject;
 
 public class livechat {
 	WebDriver driver;
@@ -12,47 +12,31 @@ public class livechat {
 		this.driver = driver;
 	}
 	
-	public void liveChat() {
-		//variabel user & pass
-		String user = "dikakoko04@gmail.com";
-		String pass = "dikakoko";
-		//Skenario Login Success
+	public void liveChat() throws InterruptedException {
 		driver.get("https://rctiplus.com/login");
-		WebElement input_user = driver.findElement(By.cssSelector("input[type=text][name='emailphone']"));
-		input_user.clear();
-		input_user.sendKeys(user, Keys.TAB);
-		System.out.println("Input User : " + user);
-		WebElement input_pass = driver.findElement(By.cssSelector("input[type=password][name='password']"));
-		input_pass.clear();
-		input_pass.sendKeys(pass);
-		System.out.println("Input Password : " + pass);
-		WebElement klik_but = driver.findElement(By.cssSelector("button[class='btn btn-sign']"));
-		klik_but.click();
+		loginobject page_login = new loginobject(driver);
+		page_login.login_object();
 		
-		//Live RCTI
-		driver.get("https://rctiplus.com/tv/rcti");
-		String url_rcti = driver.getCurrentUrl();
-		System.out.println("Live Chat On : " + url_rcti);
+		driver.get("https://rctiplus.com/login");
+		WebElement klik_live = driver.findElement(By.xpath("//a[contains(text(),'LIVE TV')]"));
+		klik_live.click();
+		Thread.sleep(30000); //waktu tunggu 30s 
 		chat page = new chat(driver);
 		page.cek_chat();
-		
-//		//Live MNCTV
-//		driver.get("https://rctiplus.com/tv/mnctv");
-//		String url_mnctv = driver.getCurrentUrl();
-//		System.out.println("Live Chat On : " + url_mnctv);
-//		page.cek_chat();
-//		
-//		//Live MNCTV
-//		driver.get("https://rctiplus.com/tv/gtv");
-//		String url_gtv = driver.getCurrentUrl();
-//		System.out.println("Live Chat On : " + url_gtv);
-//		page.cek_chat();
-//				
-//		//Live MNCTV
-//		driver.get("https://rctiplus.com/tv/inews");
-//		String url_inews = driver.getCurrentUrl();
-//		System.out.println("Live Chat On : " + url_inews);
-//		page.cek_chat();
-		
+		WebElement klik_mnc = driver.findElement(By.cssSelector("img[src='https://rctiplus.com/assets/image/elements/logo-mnctv.png']"));
+		klik_mnc.click();
+		Thread.sleep(30000); //waktu tunggu 30s 
+		chat page_mnc = new chat(driver);
+		page_mnc.cek_chat();
+		WebElement klik_gtv = driver.findElement(By.cssSelector("img[src='https://rctiplus.com/assets/image/elements/logo-gtv.png']"));
+		klik_gtv.click();
+		Thread.sleep(30000); //waktu tunggu 30s 
+		chat page_gtv = new chat(driver);
+		page_gtv.cek_chat();
+		WebElement klik_i = driver.findElement(By.cssSelector("img[src='https://rctiplus.com/assets/image/elements/logo-inews.png']"));
+		klik_i.click();
+		Thread.sleep(30000); //waktu tunggu 30s 
+		chat page_i = new chat(driver);
+		page_i.cek_chat();
 	}
 }

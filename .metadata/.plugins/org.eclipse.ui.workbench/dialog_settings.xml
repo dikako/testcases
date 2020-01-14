@@ -13,7 +13,7 @@
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="104"/>
+		<item key="DIALOG_X_ORIGIN" value="97"/>
 		<item key="DIALOG_Y_ORIGIN" value="0"/>
 		<item key="DIALOG_WIDTH" value="1162"/>
 		<item key="DIALOG_HEIGHT" value="1034"/>
@@ -26,7 +26,7 @@
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="546"/>
-		<item key="DIALOG_Y_ORIGIN" value="11"/>
+		<item key="DIALOG_X_ORIGIN" value="422"/>
+		<item key="DIALOG_Y_ORIGIN" value="124"/>
 	</section>
 </section>

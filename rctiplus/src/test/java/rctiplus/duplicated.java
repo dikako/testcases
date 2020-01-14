@@ -13,7 +13,7 @@ public class duplicated {
 	public duplicated (WebDriver driver) {
 		this.driver = driver;
 	}
-	
+
 	public void cek_duplicated() {
 		  List<String> freshcontents, duplicatecontents;  
 		     freshcontents = new ArrayList();  

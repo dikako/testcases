@@ -11,12 +11,11 @@ public class trending {
 	public trending (WebDriver driver) {
 		this.driver = driver;
 	}
-	
+
 	public void cektrending() {
 		WebElement trending = driver.findElement(By.xpath("//a[text()='TRENDING']"));
 		trending.click();
-		
-		
+
 		WebElement berita = driver.findElement(By.xpath("//h2[text()='Berita Terkini']"));
 		berita.click();
 		String valid_url1 = driver.getCurrentUrl();
@@ -64,9 +63,4 @@ public class trending {
 		String url_open = driver.getCurrentUrl();
 		System.out.println("Open Content Url : " + url_open);
 	}
-	
-//	public void active_link () {
-//		List<WebElement> activeListElements = driver.findElements(By.xpath("//li[@class='list-inline-item active']"))
-//				.get(driver.findElements(By.tagName("a")));
-//	}
 }
