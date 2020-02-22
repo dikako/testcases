@@ -13,7 +13,7 @@ public class SP_LoginNew {
 	public void testLogin() throws InterruptedException {
 		String unam = "dikakoko04@gmail.com";
 		String pass = "dikakoko";
-		driver.get("https://rc-ssr.rctiplus.com/login");
+		driver.get("http://149.129.235.143/login");
 		Thread.sleep(4000);
 		WebElement un = driver.findElement(By.xpath("//input[@type='text'][@name='username']"));
 		un.sendKeys(unam);
@@ -24,11 +24,17 @@ public class SP_LoginNew {
 		WebElement bt = driver.findElement(By.xpath("//button[text()='Log In']"));
 		bt.click();
 		Thread.sleep(4000);
+		
+		driver.get("http://149.129.235.143/users");
+		Thread.sleep(4000);
+		
 		WebElement em = driver.findElement(By.xpath("//li[text()='dikakoko04@gmail.com']"));
 		assert em.getText().contains(unam);
-		WebElement lo = driver.findElement(By.xpath("//a[@id='navbarDropdownMenuLink']"));
-		lo.click();
-		WebElement lt = driver.findElement(By.xpath("//a[text()='Sign Out']"));
-		lt.click();
+		
+		WebElement dd_logout = driver.findElement(By.xpath("//a[@id='navbarDropdownMenuLink']"));
+		dd_logout.click();
+		
+		WebElement logout = driver.findElement(By.xpath("//a[text()='Sign Out']"));
+		logout.click();
 	}
 }

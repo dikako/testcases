@@ -30,6 +30,7 @@ public class lupa_password {
 		emailphone.sendKeys(email);
 		WebElement sendlink = driver.findElement(By.xpath("//button[text()='Send Link']"));
 		sendlink.click();
+		Thread.sleep(5000);
 		assert driver.findElement(By.xpath(xpath_alert)).getText().contains(alert);
 		driver.get("http://gmail.com/");
 		gmailobject go = PageFactory.initElements(driver, gmailobject.class);

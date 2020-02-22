@@ -15,7 +15,7 @@ public class login_fb {
 		driver.findElement(By.xpath("//input[@type='text'][@name='email']")).clear();
 		driver.findElement(By.xpath("//input[@type='text'][@name='email']")).sendKeys("dikakoko04@gmail.com");
 		driver.findElement(By.xpath("//input[@type='password'][@name='pass']")).clear();
-		driver.findElement(By.xpath("//input[@type='password'][@name='pass']")).sendKeys("Dikakoko04***");
+		driver.findElement(By.xpath("//input[@type='password'][@name='pass']")).sendKeys("Dikakoko04****");
 		driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
 	}
 }

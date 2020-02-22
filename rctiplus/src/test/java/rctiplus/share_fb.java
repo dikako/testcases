@@ -15,7 +15,9 @@ public class share_fb {
 	}
 	
 	public void cekshare_fb() throws InterruptedException {
-		driver.get("https://rctiplus.com/exclusive");
+		driver.get("https://rctiplus.com/");
+		WebElement exclusive = driver.findElement(By.cssSelector("a[href='https://rctiplus.com/exclusive']"));
+		exclusive.click();
 		WebElement popup = driver.findElement(By.cssSelector("img[class='user-simple-share-icons share ']"));
 		popup.click();
 		String window = driver.getWindowHandle();
@@ -31,6 +33,7 @@ public class share_fb {
 		}
 		login_fb page_fb = new login_fb(driver);
 		page_fb.Login_Fb();
+		Thread.sleep(5000);
 		WebElement id = driver.findElement(By.xpath("//textarea[@name='xhpc_message_text']"));
 		id.sendKeys("8e72c5ad");
 		driver.findElement(By.xpath("//span[text()='Kirim ke Facebook']")).click();

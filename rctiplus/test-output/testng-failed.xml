@@ -5,14 +5,9 @@
     <classes>
       <class name="rctiplus.mainClass">
         <methods>
-          <include name="testLogin5"/>
-          <include name="testLogin4"/>
-          <include name="testLogin1"/>
-          <include name="testLogin6"/>
-          <include name="testLogin3"/>
           <include name="setUp"/>
           <include name="setDown"/>
-          <include name="testLogin2"/>
+          <include name="Cek_History"/>
         </methods>
       </class> <!-- rctiplus.mainClass -->
     </classes>

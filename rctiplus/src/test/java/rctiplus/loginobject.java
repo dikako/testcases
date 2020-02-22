@@ -11,7 +11,7 @@ public class loginobject {
 		this.driver = driver;
 	}
 	
-	public void login_object() {
+	public void login_object() throws InterruptedException {
 		//Get Url
 		String url = driver.getCurrentUrl();
 		System.out.println("Login Url : " + url);

@@ -1,7 +1,5 @@
 package rctiplus;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,11 +18,16 @@ public class history {
 		loginobject page_login = new loginobject(driver);
 		page_login.login_object();
 		driver.get(url_video);
-		driver.findElement(By.xpath("//div[@class='jw-icon jw-icon-display jw-button-color jw-reset']")).click();
-		Thread.sleep(30000);
+		liveobject page = new liveobject(driver);
+		page.live_object();
+		Thread.sleep(10000);
 		String url_v = driver.getCurrentUrl();
 		System.out.println("Url Video : " + url_v);
 		driver.get(url_user);
+		Thread.sleep(10000);
+		WebElement klikHistory = driver.findElement(By.cssSelector("a[href='https://rctiplus.com/users/history']"));
+		klikHistory.click();
+		Thread.sleep(5000);
 		WebElement cek_cw = driver.findElement(By.xpath("//li[text()='Lyodra Jago Nyanyi Melayu !']"));
 		assert cek_cw.getText().contains(vod);
 		WebElement klik_history = driver.findElement(By.xpath("//a[contains(text(),'History')]"));
@@ -32,9 +35,7 @@ public class history {
 		WebElement cek_history = driver.findElement(By.xpath("//li[text()='Lyodra Jago Nyanyi Melayu !']"));
 		assert cek_history.getText().contains(vod);
 		WebElement delete_all = driver.findElement(By.xpath("//a[contains(text(),'Delete All')]"));
-		delete_all.click();
-
-//		
+		delete_all.click();	
 //		List<WebElement> list = (List<WebElement>) driver.findElement(By.xpath("img[class='lazy']"));
 //		System.out.println(list.size());	
 	}

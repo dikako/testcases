@@ -11,7 +11,7 @@ public class mylist {
 	public mylist(WebDriver driver) {
 		this.driver = driver;
 	}
-	public void Verifmylist() {
+	public void Verifmylist() throws InterruptedException {
 		String url_program = "https://rctiplus.com/programs/532/indonesian-idol-x";
 		String url_user = "https://rctiplus.com/users";
 		String list_program = "Indonesian Idol X";

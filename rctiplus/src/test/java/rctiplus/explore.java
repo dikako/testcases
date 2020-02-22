@@ -26,21 +26,21 @@ public class explore {
 //		explore page = new explore(driver);
 //		page.open();
 		
-		//Click Series
-		WebElement series = driver.findElement(By.xpath("//h5[contains(text(),'Series')]"));
-		series.click();
-		WebElement text_series = driver.findElement(By.xpath("//h4[contains(text(),'Series')]"));
-		assert text_series.getText().contains("Series");
-		String url_text_series = driver.getCurrentUrl();
-		System.out.println("Url : " + url_text_series);
+//		//Click Series
+//		WebElement series = driver.findElement(By.xpath("//h5[contains(text(),'Series')]"));
+//		series.click();
+//		WebElement text_series = driver.findElement(By.xpath("//h4[contains(text(),'Series')]"));
+//		assert text_series.getText().contains("Series");
+//		String url_text_series = driver.getCurrentUrl();
+//		System.out.println("Url : " + url_text_series);
 		
 		//Click Romatis
-		WebElement romantis = driver.findElement(By.xpath("//h5[contains(text(),'Romantis')]"));
-		romantis.click();
-		WebElement text_romatis = driver.findElement(By.xpath("//h4[contains(text(),'Romantis')]"));
-		assert text_romatis.getText().contains("omantis");
-		String url_romantis = driver.getCurrentUrl();
-		System.out.println("Url : " + url_romantis);
+//		WebElement romantis = driver.findElement(By.xpath("//h5[contains(text(),'Romantis')]"));
+//		romantis.click();
+//		WebElement text_romatis = driver.findElement(By.xpath("//h4[contains(text(),'Romantis')]"));
+//		assert text_romatis.getText().contains("omantis");
+//		String url_romantis = driver.getCurrentUrl();
+//		System.out.println("Url : " + url_romantis);
 		
 		//Click Sport
 		WebElement sport = driver.findElement(By.xpath("//h5[text()='Sport']"));
@@ -51,20 +51,20 @@ public class explore {
 		System.out.println("Url : " + url_sport);
 		
 		//Click Fantasi
-		WebElement fantasy = driver.findElement(By.xpath("//h5[contains(text(),'Fantasi')]"));
-		fantasy.click();
-		WebElement text_fantasy = driver.findElement(By.xpath("//h4[contains(text(),'Fantasi')]"));
-		assert text_fantasy.getText().contains("Fantasi");
-		String url_fantasy = driver.getCurrentUrl();
-		System.out.println("Url : " + url_fantasy);
+//		WebElement fantasy = driver.findElement(By.xpath("//h5[contains(text(),'Fantasi')]"));
+//		fantasy.click();
+//		WebElement text_fantasy = driver.findElement(By.xpath("//h4[contains(text(),'Fantasi')]"));
+//		assert text_fantasy.getText().contains("Fantasi");
+//		String url_fantasy = driver.getCurrentUrl();
+//		System.out.println("Url : " + url_fantasy);
 		
 		//Click Laga
-		WebElement laga = driver.findElement(By.xpath("//h5[contains(text(),'Laga')]"));
-		laga.click();
-		WebElement text_laga = driver.findElement(By.xpath("//h4[contains(text(),'Laga')]"));
-		assert text_laga.getText().contains("Laga");
-		String url_laga = driver.getCurrentUrl();
-		System.out.println("Url : " + url_laga);
+//		WebElement laga = driver.findElement(By.xpath("//h5[contains(text(),'Laga')]"));
+//		laga.click();
+//		WebElement text_laga = driver.findElement(By.xpath("//h4[contains(text(),'Laga')]"));
+//		assert text_laga.getText().contains("Laga");
+//		String url_laga = driver.getCurrentUrl();
+//		System.out.println("Url : " + url_laga);
 		
 		//Click FTV
 		WebElement ftv = driver.findElement(By.xpath("//h5[contains(text(),'FTV')]"));

@@ -13,7 +13,7 @@ public class SN_LoginNew {
 	}
 
 	public void TestLogin1() throws InterruptedException {
-		driver.get("https://rc-ssr.rctiplus.com/login");
+		driver.get("http://149.129.235.143/login");
 		Thread.sleep(4000);
 		WebElement un = driver.findElement(By.xpath("//input[@type='text'][@name='username']"));
 		un.sendKeys("");
@@ -26,7 +26,7 @@ public class SN_LoginNew {
 	}
 
 	public void TestLogin2() throws InterruptedException {
-		driver.get("https://rc-ssr.rctiplus.com/login");
+		driver.get("http://149.129.235.143/login");
 		Thread.sleep(4000);
 		WebElement un = driver.findElement(By.xpath("//input[@type='text'][@name='username']"));
 		un.sendKeys("");
@@ -39,7 +39,7 @@ public class SN_LoginNew {
 	}
 
 	public void TestLogin3() throws InterruptedException {
-		driver.get("https://rc-ssr.rctiplus.com/login");
+		driver.get("http://149.129.235.143/login");
 		Thread.sleep(4000);
 		WebElement un = driver.findElement(By.xpath("//input[@type='text'][@name='username']"));
 		un.sendKeys("dikakoko04@gmail.com");
@@ -52,7 +52,7 @@ public class SN_LoginNew {
 	}
 
 	public void TestLogin4() throws InterruptedException {
-		driver.get("https://rc-ssr.rctiplus.com/login");
+		driver.get("http://149.129.235.143/login");
 		Thread.sleep(4000);
 		WebElement un = driver.findElement(By.xpath("//input[@type='text'][@name='username']"));
 		un.sendKeys("dikakoko04.com");
@@ -64,13 +64,12 @@ public class SN_LoginNew {
 		Assert.assertTrue(bt.isEnabled());
 		bt.click();
 
-		assert driver.findElement(By.xpath("//small[text()='Please try again, email is incorrect']")).getText()
-				.contains("Please try again, email is incorrect");
-//		assert alert.getText().contains("Please try again, email is incorrect");
+		WebElement valid = driver.findElement(By.cssSelector("*[class='text-danger']"));
+		assert valid.getText().contains("Please try again, email is incorrect");
 	}
 
 	public void TestLogin5() throws InterruptedException {
-		driver.get("https://rc-ssr.rctiplus.com/login");
+		driver.get("http://149.129.235.143/login");
 		Thread.sleep(4000);
 		WebElement un = driver.findElement(By.xpath("//input[@type='text'][@name='username']"));
 		un.sendKeys("dikakoko04@gmail.com");
@@ -82,13 +81,12 @@ public class SN_LoginNew {
 		Assert.assertTrue(bt.isEnabled());
 		bt.click();
 
-		driver.findElement(By.xpath("//small[text()='Please Try Again Password Is Incorrect']")).getText()
-				.contains("Please Try Again Password Is Incorrect");
-//		assert alert.getText().contains("Please Try Again Password Is Incorrect");
+		WebElement valid = driver.findElement(By.cssSelector("*[class='text-danger']"));
+		assert valid.getText().contains("Please Try Again Password Is Incorrect");
 	}
 
 	public void TestLogin6() throws InterruptedException {
-		driver.get("https://rc-ssr.rctiplus.com/login");
+		driver.get("http://149.129.235.143/login");
 		Thread.sleep(4000);
 		WebElement un = driver.findElement(By.xpath("//input[@type='text'][@name='username']"));
 		un.sendKeys("dikakoko04gfghghf@gmail.com");
@@ -99,10 +97,26 @@ public class SN_LoginNew {
 		WebElement bt = driver.findElement(By.xpath("//button[text()='Log In']"));
 		Assert.assertTrue(bt.isEnabled());
 		bt.click();
-		driver.switchTo().activeElement();
-		WebElement alert = driver.findElement(By.xpath("//div[text()='Invalid, User Has Not Been Registered']"));
-		assert alert.getText().contains("Invalid, User Has Not Been Registered");
-//		driver.findElement(By.xpath("//button[text()='OK']")).click();
+		
+		WebElement valid = driver.findElement(By.xpath("//div[text()='Invalid, User Has Not Been Registered']"));
+		valid.getText().contains("Invalid, User Has Not Been Registered");
+	}
+	
+	public void TestLogin7() throws InterruptedException {
+		driver.get("http://149.129.235.143/login");
+		Thread.sleep(4000);
+		WebElement un = driver.findElement(By.xpath("//input[@type='text'][@name='username']"));
+		un.sendKeys("dikakoko04@gmail.com");
+		Thread.sleep(4000);
+		WebElement pw = driver.findElement(By.xpath("//input[@type='password'][@name='password']"));
+		pw.sendKeys("salahpassword");
+		Thread.sleep(4000);
+		WebElement bt = driver.findElement(By.xpath("//button[text()='Log In']"));
+		Assert.assertTrue(bt.isEnabled());
+		bt.click();
+
+		WebElement valid = driver.findElement(By.cssSelector("*[class='text-danger']"));
+		assert valid.getText().contains("Password must at least be 8 character");
 	}
 
 }

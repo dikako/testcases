@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
-<fullyQualifiedTypeName name="java.net.MalformedURLException"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="rctiplus.imgcount"/>
 <fullyQualifiedTypeName name="rctiplus.exclusive"/>
@@ -24,7 +22,6 @@
 <fullyQualifiedTypeName name="rctiplus.edit_profile"/>
 <fullyQualifiedTypeName name="rctiplus.editprofileobject"/>
 <fullyQualifiedTypeName name="rctiplus.chat"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="rctiplus.program"/>
 <fullyQualifiedTypeName name="rctiplus.vod_homepage"/>
 <fullyQualifiedTypeName name="rctiplus.logoutobject"/>
@@ -33,7 +30,6 @@
 <fullyQualifiedTypeName name="rctiplus.ads_banner"/>
 <fullyQualifiedTypeName name="rctiplus.live"/>
 <fullyQualifiedTypeName name="rctiplus.login_fb"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="rctiplus.loginobject"/>
 <fullyQualifiedTypeName name="rctiplus.cek_ads_banner"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By.ByTagName"/>
@@ -47,7 +43,6 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
 <fullyQualifiedTypeName name="io.appium.java_client.remote.MobileCapabilityType"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
 <fullyQualifiedTypeName name="io.appium.java_client.ios.IOSDriver"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
@@ -58,6 +53,11 @@
 <fullyQualifiedTypeName name="rctiplusandroidtest.BaseClass"/>
 <fullyQualifiedTypeName name="rctiplusandroidtest.test"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="rctiplus.testcapat"/>
+<fullyQualifiedTypeName name="rctiplus.SN_Register"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="rctiplus.SP_Register"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 </qualifiedTypeNameHistroy>

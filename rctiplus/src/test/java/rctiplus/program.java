@@ -10,8 +10,10 @@ public class program {
 		this.driver = driver;
 	}
 	
-	public void cek_program() {
+	public void cek_program() throws InterruptedException {
 		WebElement banner = driver.findElement(By.cssSelector("img[class='img-fix']"));
 		banner.click();
+		liveobject page = new liveobject(driver);
+		page.live_object();
 	}
 }

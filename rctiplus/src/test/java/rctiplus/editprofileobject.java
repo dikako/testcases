@@ -53,7 +53,7 @@ public class editprofileobject {
 		assert alert_save_sukses3.getText().contains(save_sukses);
 		}
 	
-	public void jk() {
+	public void jk() throws InterruptedException {
 		String jk_edit = "Female";
 		String jk_fix = "Male";
 		String save_sukses = "Profile berhasil diubah.";
@@ -68,13 +68,14 @@ public class editprofileobject {
 		//fix jk
 		WebElement fix_jk = driver.findElement(By.xpath("//input[@type='date'][@name='dob']"));
 		fix_jk.sendKeys(jk_fix);
+		Thread.sleep(5000);
 		WebElement fix_save2 = driver.findElement(By.xpath("//button[text()='Save']"));
 		fix_save2.click();
 		WebElement alert_save_sukses5 = driver.findElement(By.xpath("//div[contains(text(),'Profile berhasil diubah.')]"));
 		assert alert_save_sukses5.getText().contains(save_sukses);		
 		}
 	
-	public void lokasi() {
+	public void lokasi() throws InterruptedException {
 		String lokasi_edit = "Banda Aceh";
 		String lokasi_fix = "Bandar Lampung";
 		String save_sukses = "Profile berhasil diubah.";
@@ -83,6 +84,7 @@ public class editprofileobject {
 		lokasi.selectByVisibleText(lokasi_edit);
 		WebElement but_save3 = driver.findElement(By.xpath("//button[text()='Save']"));
 		but_save3.click();
+		Thread.sleep(5000);
 		WebElement alert_save_sukses6 = driver.findElement(By.xpath("//div[contains(text(),'Profile berhasil diubah.')]"));
 		assert alert_save_sukses6.getText().contains(save_sukses);
 		
